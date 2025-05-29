@@ -1,11 +1,9 @@
-/* General Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body Styling */
 body {
     font-family: 'Arial', sans-serif;
     background: linear-gradient(135deg, #090909, #2A0606);
@@ -14,7 +12,6 @@ body {
     min-height: 100vh;
 }
 
-/* Header Styling */
 header {
     background: rgba(20, 0, 0, 0.9);
     padding: 20px;
@@ -31,7 +28,6 @@ header h1, header h3 {
     letter-spacing: 2px;
 }
 
-/* Navigation Styling */
 nav ul {
     list-style: none;
     display: flex;
@@ -52,7 +48,6 @@ nav ul li a:hover {
     text-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
 }
 
-/* Main Section */
 main {
     max-width: 800px;
     margin: 0 auto;
@@ -62,7 +57,6 @@ main {
     text-shadow: 0 0 8px rgba(255, 0, 0, 0.5);
 }
 
-/* Buttons */
 .buttons button {
     background-color: rgba(40, 0, 0, 0.9);
     color: #FFF;
@@ -85,7 +79,6 @@ main {
     transform: scale(1.1);
 }
 
-/* Gallery Section */
 .photos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -110,7 +103,6 @@ main {
     filter: brightness(1.1);
 }
 
-/* Footer */
 footer {
     background-color: rgba(20, 0, 0, 0.9);
     color: #FF7070;
@@ -120,7 +112,6 @@ footer {
     border-top: 2px solid rgba(255, 0, 0, 0.5);
 }
 
-/* Contact Form */
 form {
     display: flex;
     flex-direction: column;
@@ -175,7 +166,6 @@ form button:hover {
     text-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
 }
 
-/* Highlighted Text */
 .highlight {
     color: #FF7070;
     font-weight: bold;
@@ -183,7 +173,6 @@ form button:hover {
     text-shadow: 0 0 5px rgba(255, 0, 0, 0.8);
 }
 
-/* Custom Styled List */
 .styled-list {
     list-style: none;
     padding-left: 0;
@@ -220,7 +209,6 @@ form button:hover {
     margin-bottom: 5px;
 }
 
-/* Quote Styling */
 .highlight-text {
     font-size: 1.6rem;
     font-style: italic;
